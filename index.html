@@ -75,25 +75,37 @@ body {position: relative; w-100%}
     		  
      <div class="col-sm">
     	 <div class="card">
-      <div class="card-header height="80px"><img src="img/steve.jpg" height="100px"></div>
-      <div class="card-body">Steve Jobs</div>
-      <div class="footer">lorem ipsum</div>
-     </div>
+      <div class="card-header" height="80px"><img src="img/steve.jpg" height="100px">
+      </div>
+      <div class="card-body">
+      <span class="badge bg-warning">Java Script</span>
+      <span class="badge bg-info">React</span>
+      <br>
+      Steve Jobs
+      </div>
+     <div class="footer">lorem ipsum</div>
      </div>
     
    <div class="col-sm">
      <div class="card"> 
-      <div class="card-header height="100px"><img src="img/bill.jpg" height="100px"></div>
-      <div class="card-body">Bill Gates</div>
+      <div class="card-header height="80px"><img src="img/bill.jpg" height="100px"></div>
+      <div class="card-body">
+        <span class="badge bg-warning">Java Script</span>
+      <span class="badge bg-info">React</span><br>
+       Bill Gates</div>
       <div class="footer">lorem ipsum</div>
      </div>
 				 </div>
 		  
    <div class="col-sm">
      <div class="card">
-      <div class="card-header height="20px"><img src="img/ada.jpeg"></div>
-      <div class="card-body">Ada Lovelance</div>
-      <div class="footer">lorem ipsum</div>
+      <div class="card-header" height="10px"><img src="img/ada.jpeg" heigrt="10px"></div>
+      <div class="card-body">
+        <span class="badge bg-secondary">Secondary</span>
+        <span class="badge bg-danger">Danger</span>
+        <br>
+      </div>Ada Lovelance</div>
+      <div class="footer">lorem ipsum </div>
      </div>
    </div>
   </div>
@@ -114,40 +126,39 @@ body {position: relative; w-100%}
         </p>
      </div>
     </div>
- 
-    
   <div id="section4" class="container-fluid bg-white">
   <section class="text-center">
     <h6>
     <small>CONVIERTETE EN UN</small>
     </h6>
     <h3>ORADOR</h3>
-    <h6>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h6>
+    <h6>Anótate como orador para dar una <abbr title="Charla de 5 minutos">Charla ignite</abbr>. Cuéntanos de qué quieres hablar!</h6>
   </section>
     <form action="/action_page.php">
     <div class="mb-3 mt-3">
     <input type="nombre" class="form-control" id="nombre" placeholder="Nombre">
     </div>
-   <div class="mb-3">
+   <div class="mb-3 mt-3">
     <input type="apellido" class="form-control" id="Apellido" placeholder="Apellido">
- 
-     
-      
-      
-     
+   </div>
+   <div class="form-group">
+    <textarea class="form-control" rows="5" id="texto" placeholder="Sobre qué quieres hablar?"></textarea>
+   </div> 
       <p>Recuerda incluir un título para tu charla</p>
-  <button type="Enviar" class="btn btn-primary">Enviar</button>
+    <div class="d-grid">
+     <button type="button" class="btn btn-success btn-block">Enviar</button>
+    </div>
     </form>
   </section>
-    
   </div>
-  
-  <footer>
-    <div class="d-flex">
-  <div class="w-auto bg-success flex-fill">Preguntas frecuente</div>
-  <div class="p-2 bg-success flex-fill">Contactenos</div>
-  <div class="p-2 bg-success flex-fill">Prensa</div>
-</div>
-  </footer>
-  
+<br>
+<footer>
+ <conteiner class="d-flex bg-succes flex-fill">
+ <div >Preguntas frecuente</div>
+  <div>Contactenos</div>
+  <div>Prensa</div>
+        
+ </conteiner>
+</footer>
+
 </body>
